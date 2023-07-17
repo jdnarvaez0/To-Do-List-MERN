@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
 	cors({
-		origin: "http://localhost:5173",
+		origin: "https://todo-list-5knjucbf0-juand07.vercel.app",
 		credentials: true,
 	})
 );
